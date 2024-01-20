@@ -13,10 +13,13 @@
   width: 4px !important;
 }
 
-* {
-  background-color: var(--bg-transparent) !important;
+*:not(.roleCircle_bae511.desaturateUserColors_b72bd3) {
+  background-color: var(--bg-transparent);
   --profile-gradient-primary-color: var(--bg-transparent) !important;
   --profile-gradient-secondary-color: var(--bg-transparent) !important;
+}
+.banner__6d414 {
+  background-color: var(--bg-transparent) !important;
 }
 
 .scroller__3d071,
@@ -32,9 +35,7 @@
 .typeWindows__5fa63,
 .searchBarComponent__22760,
 .inner__999f6,
-.input__848cd,
-.inputDefault__80165,
-.container_b2ce9c,
+.input__848cd .container_b2ce9c,
 .scroller_f0f183,
 .container__7c79d,
 .form__198f4 {
