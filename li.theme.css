@@ -1,0 +1,42 @@
+/**
+ * @name Livie@night
+ * @author xzoba
+ * @version 1.0.1
+ * @description not a virus tftf
+ * @source https://github.com/Xzoba54/Discord-Theme
+*/
+
+@import url("https://xzoba54.github.io/Discord-Theme/main.theme.css");
+
+:root {
+  /*paste a link to your wallpaper [.png, .jpg, .gif]*/
+  --wallpaper: url("https://cdn.discordapp.com/attachments/753648968751120443/1197293124356145265/210119-olivia-rodrigo-drivers-license-ew-5410p.jpg?ex=65babd1d&is=65a8481d&hm=f13e8abf52d14e26afff06646ce03a29c7ab73541512d0dcf425b80cf07b6f34&");
+
+  --bg-transparent: rgba(0, 0, 0, 0);
+  --bg-opacity-25: rgba(0, 0, 0, 0.25);
+  --bg-opacity-5: rgba(0, 0, 0, 0.5);
+  --bg-opacity-1: rgba(0, 0, 0, 0.1);
+
+  /*accent colors*/
+  --primary-accent-color: rgb(70, 34, 112);
+  --secondary-accent-color: rgb(194, 140, 255);
+
+  --color-white-dark: rgba(78, 80, 88, 0.48);
+  --color-white-light: #d0d0d8;
+  --color-red-dark: rgb(165, 35, 26);
+  --color-red-light: rgb(196, 26, 26);
+}
+
+body {
+  background-image: var(--wallpaper);
+  background-size: cover;
+}
+body::after {
+  content: "" !important;
+  position: absolute;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1;
+  /*                                V value range from 0.0 - 0.5 - 1.0 */
+  background-color: rgba(0, 0, 0, 0) !important;
+}
