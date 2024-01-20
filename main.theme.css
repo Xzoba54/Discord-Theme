@@ -13,6 +13,11 @@
   width: 4px !important;
 }
 
+*:not(.roleCircle_bae511.desaturateUserColors_b72bd3) {
+  background-color: var(--bg-transparent);
+  --profile-gradient-primary-color: var(--bg-transparent) !important;
+  --profile-gradient-secondary-color: var(--bg-transparent) !important;
+}
 .banner__6d414 {
   background-color: var(--bg-transparent) !important;
 }
