@@ -14,7 +14,7 @@
 }
 
 * {
-  background-color: transparent !important;
+  background-color: var(--bg-transparent) !important;
   --profile-gradient-primary-color: var(--bg-transparent) !important;
   --profile-gradient-secondary-color: var(--bg-transparent) !important;
 }
